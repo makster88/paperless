@@ -1,0 +1,85 @@
+/* SOCIAL MEDIA */
+
+@media only screen and (min-width: 700px) {
+
+    #socialShare {
+        display: block;
+        width: 72px;
+        text-align: center;
+        margin-top: -199px;
+        position: fixed;
+        top: 50%;
+        right: 10px;
+        z-index: 99; }
+    #socialShare > img {
+        position: relative;
+        top: 12px; }
+    #socialShare > div {
+        padding: 0;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #999; }
+    #socialShare > div .social-icon {
+        margin-bottom: 5px; }
+    #socialShare > div .fb {
+        margin-bottom: 10px; padding-right: 4px; }
+}
+
+@media only screen and (max-width: 700px) {
+    #socialShare {
+        display: none;
+    } 
+}
+
+
+/* #########################
+######### GENERAL #########
+###########################*/
+
+
+textarea {
+    width: 540px;
+    border: 1px #999 solid;
+    color: #111;
+    font-size: 11px;
+    font-family: monospace;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.fb-like.fb_iframe_widget{
+    position: relative;
+    margin-top: -2px;
+    font-size: inherit !important;
+}
+
+#bottom {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0;
+    padding-bottom: 60px
+}
+#bottom a { padding: inherit !important; min-height:inherit !important; display: inline-block}
+#spacer { width: 560px; height:10px;}
+
+.addthis_toolbox {
+    max-width: 700px;
+    padding-bottom: 50px;
+}
+
+#socialShare span { background-color:transparent !important}
+
+.social-icon fb{margin-left:1px;}
+
+#socialShare > div{
+    padding-top: 10px !important
+}
